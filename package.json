@@ -1,0 +1,24 @@
+{
+  "name": "projeto",
+  "version": "1.0.0",
+  "description": "led control server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "led",
+    "pin",
+    "http"
+  ],
+  "author": "Mathvdias",
+  "license": "ISC",
+  "dependencies": {
+    "bme280": "^2.0.1",
+    "bme680-sensor": "^1.1.0",
+    "body-parser": "^1.20.0",
+    "express": "^4.18.1",
+    "nodejs": "^0.0.0",
+    "rpi-gpio": "^2.1.7"
+  }
+}

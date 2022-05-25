@@ -1,0 +1,10 @@
+#!/bin/sh
+echo forced-read
+node forced-read
+echo read
+node read
+echo trigger-forced-measurement-error
+node trigger-forced-measurement-error
+echo trigger-forced-measurement-waits
+node trigger-forced-measurement-waits
+
